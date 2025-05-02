@@ -1,0 +1,61 @@
+.topbar{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    background:linear-gradient(to right, grey, beige, white);
+}
+h2{
+    color: blue;
+}
+p{
+    text-align: justify;
+}
+.columns{
+    display: flex;
+    gap: 10px;
+}
+.column{
+    width: 30%;
+    height: 200px;
+    background: linear-gradient(to right, grey, beige, white);
+    overflow-y: auto;
+}
+.col{
+    width: 50%;
+    height: 250px;
+}
+.button{
+    display:inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+    background: linear-gradient(to right, purple, blue);
+    color: white;
+    text-emphasis: bold;
+}
+.button:hover{
+    background-color: brown;
+    color: black;
+}
+.image{
+    height: 300px;
+    width: 550px;
+}
+#project{
+    
+    background: linear-gradient(to right,rgb(175, 104, 104), rgb(65, 63, 63));
+    color: white;
+}
+#bg{
+    background: linear-gradient(to left, rgb(175, 104, 104), rgb(65, 63, 63));
+}
+hr{
+    float: left;
+    color: grey;
+    width: 50px;
+}
+#bg img{
+    width: 50px;height: 50px;
+}
+footer{
+    padding: 20px;
+}
